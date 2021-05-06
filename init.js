@@ -1,1 +1,5 @@
-alert('wow');
+window.onload(() => {
+  alert('wow');
+  );
+
+
