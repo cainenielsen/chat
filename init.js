@@ -4,7 +4,7 @@ window.onload = (event) => {
   console.log('wow');
   alert('wow');
   
-  var node = document.createElement("span");
+  var node = document.createElement("div");
   node.style.cssText += styles;
   var textnode = document.createTextNode("Help");        
   node.appendChild(textnode);                          
