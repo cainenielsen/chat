@@ -1,10 +1,12 @@
+const styles = 'color:red;background-color:yellow';
+
 window.onload = (event) => {
   console.log('wow');
   alert('wow');
   
-  var node = document.createElement("span");                 // Create a <li> node
-  var textnode = document.createTextNode("Water");         // Create a text node
-  node.appendChild(textnode);                              // Append the text to <li>
-  document.body.appendChild(node);     // Append <li> to <ul> with id="myList"
+  var node = document.createElement("span");
+  node.style.cssText += styles;
+  var textnode = document.createTextNode("Water");        
+  node.appendChild(textnode);                          
+  document.body.appendChild(node);    
 };
-
