@@ -6,7 +6,7 @@ window.onload = (event) => {
   var node = document.createElement("div");
   node.onclick = function(){alert('wow')};
   node.style.cssText += styles;
-  var textnode = document.createTextNode("Help");        
+  var textnode = document.createTextNode("HELP");        
   node.appendChild(textnode);                          
   document.body.appendChild(node);    
 };
