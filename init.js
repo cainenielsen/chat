@@ -1,4 +1,4 @@
-const styles = 'color:red;background-color:yellow';
+const styles = 'height: 48px; border-radius: 24px;color:white;background-color:green;font-size:16px;';
 
 window.onload = (event) => {
   console.log('wow');
@@ -6,7 +6,7 @@ window.onload = (event) => {
   
   var node = document.createElement("span");
   node.style.cssText += styles;
-  var textnode = document.createTextNode("Water");        
+  var textnode = document.createTextNode("Help");        
   node.appendChild(textnode);                          
   document.body.appendChild(node);    
 };
