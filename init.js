@@ -1,5 +1,5 @@
 window.onload(() => {
-  alert('wow');
+  console.log('wow');
   );
 
 
