@@ -26,7 +26,7 @@ function toggleChat() {
 function openChat() {
   toggleChat();
   node.onclick = closeChat();
-  parent.innerHTML = '';
+  node.innerHTML = '';
   node.appendChild(x);
   node.appendChild(panel);
   alert('wow');
@@ -35,7 +35,7 @@ function openChat() {
 function closeChat() {
   toggleChat();
   node.onclick = openChat();
-  parent.innerHTML = '';
+  node.innerHTML = '';
   node.appendChild(help);
   alert('wow');
 }
