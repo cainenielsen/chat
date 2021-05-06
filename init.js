@@ -4,6 +4,7 @@ window.onload = (event) => {
   console.log('Chat loaded!');
   
   var node = document.createElement("div");
+  node.onclick = function(){alert('wow')};
   node.style.cssText += styles;
   var textnode = document.createTextNode("Help");        
   node.appendChild(textnode);                          
